@@ -1,0 +1,1 @@
+window.location.href = 'docs/getting-started/introduction.html';

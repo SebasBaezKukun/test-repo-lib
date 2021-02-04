@@ -1,0 +1,40 @@
+{
+  "docs": {
+    "Getting started": [
+      "getting-started/introduction"
+    ],
+    "Layout": [
+      "layout/breakpoints",
+      "layout/containers",
+      "layout/width-options"
+    ],  
+    "Content": [
+      "content/reboot",
+      "content/typography"
+    ],
+    "Forms": [
+      "forms/inputs",
+      "forms/checks-radios",
+      "forms/validations"
+    ],
+    "Components": [
+      "components/accordions",
+      "components/buttons",
+      "components/borders-shadows",
+      "components/banners",
+      "components/carousels",
+      "components/card-box",
+      "components/datepicker",
+      "components/modals",
+      "components/pagination",
+      "components/scroll-progress",
+      "components/select-dropdown",
+      "components/toasts"
+    ],
+    "Utilities": [
+      "utilities/colors",
+      "utilities/cursors",
+      "utilities/icons"
+    ]
+  }
+}

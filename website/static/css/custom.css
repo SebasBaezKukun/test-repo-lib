@@ -1,0 +1,231 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* your custom css */
+
+/* @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+} */
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_bold_italic-webfont.ttf);
+    font-family:BariolBoldItalic
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_bold_italic-webfont.ttf);
+    font-family:BariolBoldItalic
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_bold-webfont.ttf);
+    font-family:BariolBold
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_light_italic-webfont.ttf);
+    font-family:BariolLightItalic
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_light-webfont.ttf);
+    font-family:BariolLight
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_regular_italic-webfont.ttf);
+    font-family:BariolRegularItalic
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_regular-webfont.ttf);
+    font-family:BariolRegular   
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_thin_italic-webfont.ttf);
+    font-family:BariolThinItalic
+}
+@font-face{
+    src:url(../kukun-lib/fonts/bariol_thin-webfont.ttf);
+    font-family:BariolThin
+}
+
+
+.kukun-docs-example {
+    margin-bottom: 20px;
+}
+
+i[class*="k-icon"] {
+    font-style: normal;
+}
+
+.kukun-docs-example * {
+    box-sizing: border-box;
+    /* margin: 0px; */
+    /* padding: 0px; */
+}
+
+.kukun-docs-example .k-toast-alert {
+    padding: 15px 10px;
+}
+
+.kukun-docs-example input,
+.kukun-docs-example label,
+.kukun-docs-example selected, 
+.kukun-docs-example {
+    font-family: BariolRegular;
+}
+
+.kukun-docs-example h1,
+.kukun-docs-example h2,
+.kukun-docs-example h3,
+.kukun-docs-example h4,
+.kukun-docs-example h5,
+.kukun-docs-example h6 {
+    margin-top: 0px;
+}
+
+.kukun-docs-example .k-calendar-wrapper td { 
+    border: 0px;
+}
+
+.kukun-docs-example .k-calendar-wrapper table { 
+    display: table;
+}
+
+.k-radio-field {
+    cursor: pointer;
+}
+
+
+
+td { vertical-align: middle; }
+
+.fixedHeaderContainer {
+    background-color: #FFFFFF;
+    height: 70px;
+    box-shadow: 0 2px 2px rgba(51,51,51,.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fixedHeaderContainer *{
+    color: #122448 !important;
+}
+.headerTitleWithLogo { display: none !important; }
+
+.headerWrapper { width: 100%; }
+
+.slidingNav ul li a:hover {
+    /* color: #FFFFFF !important; */
+    background-color: transparent !important;
+}
+
+.navigationSlider .slidingNav ul li > a:focus, 
+.navigationSlider .slidingNav ul li > a:hover, 
+.navigationSlider .slidingNav ul li.siteNavItemActive > a, 
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+    background-color: transparent !important;
+    color: #f05825 !important;
+}
+
+.navigationSlider .slidingNav ul {
+    margin-top: 70px;
+}
+
+.navPusher {
+    padding-top: 122px;
+}
+
+#docsNav::-webkit-scrollbar {
+    width: 8px;
+}
+    
+#docsNav::-webkit-scrollbar-track {
+    background: #f7f7f7;
+}
+    
+#docsNav::-webkit-scrollbar-thumb {
+    background: #999999;
+    border-radius: 1px;
+    border: 2px solid #f7f7f7;
+}
+    
+#docsNav::-webkit-scrollbar-thumb:hover {
+    background: #c4c4c4;
+}
+
+.hljs::-webkit-scrollbar {
+  height: 12px;
+}
+    
+.hljs::-webkit-scrollbar-track {
+  background: #f7f7f7;border-radius: 50%;
+}
+    
+.hljs::-webkit-scrollbar-thumb {
+  border-radius: 50%;
+  background: #999999;
+  border-radius: 1px;
+  border: 2px solid #f7f7f7;
+}
+    
+.hljs::-webkit-scrollbar-thumb:hover {
+  background: #c4c4c4;
+}
+
+@media only screen and (max-width: 1023px) {
+    .tocActive .onPageNav {
+        top: 168px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navigationSlider .slidingNav ul {
+        margin-top: 0px;
+    }
+
+    .navPusher { padding-top: 70px; }
+}
+
+
+#footer {
+    background-color: #122448;
+    padding: 5px 0px 15px 0px;
+}
+
+#footer .kukun-copyright-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1360px;
+}
+
+#footer .kukun-copyright-wrapper .copyright { color: #FFFFFF; }
+
+@media (min-width: 700px) {
+    #footer {
+        padding: 15px;
+    }
+    #footer .kukun-copyright-wrapper { flex-direction: row; }
+    #footer .kukun-copyright-wrapper a,
+    #footer .kukun-copyright-wrapper .copyright { 
+        width: 50%;    
+        margin: 0px
+    }
+    #footer .kukun-copyright-wrapper .copyright { 
+        text-align: right;
+    }
+}
+
