@@ -8,7 +8,7 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-const LIB_CDN = 'https://stgcdn.mykukun.com/kukun-lib/v1-0-0/dist/';
+const LIB_CDN = 'https://stgcdn.mykukun.com/test-kukun-docs/v1-0-0/dist/';
 
 // List of projects/orgs using your project for the users page.
 const users = [
@@ -26,7 +26,7 @@ const siteConfig = {
   title: 'Kukun Documentation', // Title for your website.
   tagline: 'Front-end',
   url: 'https://mykukun.github.io', // Your website URL
-  baseUrl: '/Kukun-lib/', // Base URL for your project */
+  baseUrl: '/test-kukun-docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -86,15 +86,15 @@ const siteConfig = {
   scripts: [
     'https://buttons.github.io/buttons.js',
     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
-    '/Kukun-lib/js/code-block-buttons.js',
-    '/Kukun-lib/kukun-lib/kukun-lib.js'
+    '/test-kukun-docs/js/code-block-buttons.js',
+    '/test-kukun-docs/kukun-lib/kukun-lib.js'
   ],
   stylesheets: [
-    '/Kukun-lib/css/code-block-buttons.css',
+    '/test-kukun-docs/css/code-block-buttons.css',
     `${LIB_CDN}iconography/my-kukun-icons.min.css`,
   ],
   separateCSS: [
-    '/Kukun-lib/kukub-lib/kukun-lib.css'
+    '/test-kukun-docs/kukub-lib/kukun-lib.css'
   ],
 
   // On page navigation for the current documentation page.
